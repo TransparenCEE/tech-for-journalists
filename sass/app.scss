@@ -98,6 +98,9 @@
   margin-right: calc(8/12 * 100%);
 }
 
+.left {
+  text-align: left;
+}
 .block {
   position: absolute;
   bottom: 120px;
@@ -246,6 +249,9 @@
   border: 5px solid $color-green;
 }
 
+.split-content {
+  padding: 0 30px;
+}
 
 .split-content, .wrapper-col {
   display: flex;
@@ -260,6 +266,7 @@
 .list {
   list-style-type: none;
   text-align: left;
+  padding: 0;
   li{
     margin-bottom: 20px;
   }
