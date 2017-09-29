@@ -2,6 +2,10 @@
 @import 'components/variables';
 @import 'components/html';
 
+
+.wrapper-container {
+
+}
 .header {
   position: fixed;
   top: 20px;
@@ -26,6 +30,7 @@
       position: absolute;
       top: 0px;
       left: 0px;
+      margin: 20px;
       transition: transform 0.2s ease, opacity 0.2s ease;
       -moz-transition: -moz-transform 0.2s ease, opacity 0.2s ease;
       -webkit-transition: -webkit-transform 0.2s ease, opacity 0.2s ease;
@@ -46,19 +51,18 @@
 .nav-buttons {
     float: right;
   .hamburger-button {
-    width: 48px;
-    height: 70px;
-    margin: 20px;
-    display: block;
-    float: left;
+    width: 41px;
+    height: 60px;
+    // display: block;
+    // float: left;
     position: relative;
 
     img {
-      width: 48px;
-      height: 70px;
-      position: absolute;
-      top: 0px;
-      left: 0px;
+      height: 60px;
+      margin: 20px;
+      // position: absolute;
+      // top: 0px;
+      // left: 0px;
       transition: transform 0.2s ease, opacity 0.2s ease;
       -moz-transition: -moz-transform 0.2s ease, opacity 0.2s ease;
       -webkit-transition: -webkit-transform 0.2s ease, opacity 0.2s ease;
@@ -235,6 +239,16 @@
     -ms-transform: translate3d(0px, 0px, 0px);
     -o-transform: translate3d(0px, 0px, 0px);
     transform: translate3d(0px, 0px, 0px);
+}
+
+.title-text.attach {
+  padding: 0 40px; 
+}
+
+.shadow.attach {
+
+  height: 35px;
+  margin-top: -56px;
 }
 
 .title-text.orange, .shadow.orange {
