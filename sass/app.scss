@@ -290,4 +290,12 @@
   }
 }
 
+.wrapper-col .purple {
+  color: $color-purple;
+}
+
+.wrapper-col .green {
+  color: $color-green;
+}
+
 @import 'components/media';
