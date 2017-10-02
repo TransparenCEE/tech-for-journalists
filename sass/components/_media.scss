@@ -31,6 +31,10 @@
     flex: 1 0 100%;
   }
 
+  .split-content .col .inverse {
+    flex-flow: column-reverse;
+  }
+
 }
  
 @media all and (min-width: 480px) and (max-width: 768px) { 
@@ -43,6 +47,10 @@
     .picture {
       flex: 1 0 50%;
     }
+  }
+
+  .split-content .col .inverse {
+    flex-flow: column-reverse;
   }
 
   .split-content .col, .split-content .sub-col {
@@ -63,6 +71,10 @@
     .picture {
       flex: 1 0 100%;
     }
+  }
+
+  .split-content .col .inverse {
+    flex-flow: column-reverse;
   }
 
   .split-content .col, .split-content .sub-col {
