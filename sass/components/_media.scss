@@ -97,6 +97,10 @@
 }
  
 @media all and (max-width: 480px) {
+  .header .header-logo {
+    width: inherit;
+  }
+
   .main-title {
     font-size: 28px;
   }
