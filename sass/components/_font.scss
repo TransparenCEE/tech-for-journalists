@@ -12,7 +12,7 @@
 // Font Face
 // =============================================================================
 
-@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: ttf) {
   $src: null;
 
   $extmods: (
@@ -39,4 +39,5 @@
   }
 }
 
-@include font-face(Raleway, "../fonts/RALEWAY", normal);
+@include font-face(Raleway, "/fonts/Raleway/RALEWAY-REGULAR", normal);
+@include font-face(Raleway-bold, "/fonts/Raleway/RALEWAY-BOLD", normal);

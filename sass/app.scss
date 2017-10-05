@@ -91,6 +91,7 @@
   margin: 200px auto 100px auto;
   font-size: 42px;
   text-align: center;
+  font-family: $bold-font;
 }
 
 .blocks {
@@ -191,6 +192,7 @@
     font-size: 21px;
     display: block;
     padding: 15px;
+    font-family: $bold-font;
     background-color: $body-bg;
     border: 5px solid $color-green;
     height: 34px;
