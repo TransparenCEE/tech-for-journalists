@@ -1,6 +1,5 @@
 ---
 ---
-
 @import 'font';
 @import 'variables';
 @import 'html';
@@ -90,11 +89,21 @@
 
 .main-title {
   color: $main-title-color;
-  max-width: 800px;
+  max-width: 950px;
   margin: 200px auto 100px auto;
-  font-size: 42px;
   text-align: center;
   font-family: $bold-font;
+
+  .primary-title, .second-title {
+    margin: 0;
+  }
+  h1, .primary-title {
+    font-size: 42px;
+    margin-bottom: 10px;
+  }
+  .second-title {
+    font-size: 32px;
+  }
 }
 
 .blocks {
@@ -321,7 +330,7 @@
   animation-name: fadeInRight;
 }
 
-  .fadeInLeft {
+.fadeInLeft {
   opacity: 0;
 }
 
@@ -329,6 +338,9 @@
   opacity: 0;
 } 
 
+.green {
+  color: $color-green;
+}
 
 @-webkit-keyframes fadeInLeft {
   0% {

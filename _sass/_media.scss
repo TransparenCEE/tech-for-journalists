@@ -18,8 +18,19 @@
 }
  
 @media all and (min-width: 768px) and (max-width: 1024px) {
-  .main-title {
-    font-size: 38px;
+
+  h1, .primary-title {
+    font-size: 38px !important;
+  }
+
+  .second-title {
+    font-size: 28px !important;
+  }
+
+  .section {
+    .picture {
+      flex: 1 0 50%;
+    }
   }
 
   .section {
@@ -58,8 +69,12 @@
  
 @media all and (min-width: 480px) and (max-width: 768px) { 
 
-  .main-title {
-    font-size: 32px;
+  h1, .primary-title {
+    font-size: 32px !important;
+  }
+
+  .second-title {
+    font-size: 22px !important;
   }
 
   .section {
@@ -101,8 +116,11 @@
     width: inherit;
   }
 
-  .main-title {
-    font-size: 28px;
+  h1, .primary-title {
+    font-size: 28px !important;
+  }
+  .second-title {
+    font-size: 18px !important;
   }
 
   .section {
