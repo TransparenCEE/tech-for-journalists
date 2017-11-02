@@ -1,9 +1,3 @@
-## Install sass 
+## This is a Jekyll site
 
-Type in your terminal: 
-
-`gem install sass`
-
-Run the watch:
-
-`sass --watch sass:css`
+Run `bundle exec jekyll serve` to preview it. You can find more info at https://jekyllrb.com/docs/usage/
